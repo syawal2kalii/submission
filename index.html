@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submission 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="grid grid-rows-1 w-[390px] md:w-[1728px] md:gap-[36px] md:w-full md:flex main-container"
+    >
+      <section class="p-[32px] md:w-full md:m-auto">
+        <div class="flex justify-center left-side">
+          <div class="sm:w-full md:w-[388px] gap-[48px] login-form">
+            <div class="intro grid gap-[28px]">
+              <h1 class="text-3xl">Welcome Back 👋</h1>
+              <p>
+                Today is a new day. It's your day. You shape it. Sign in to
+                start managing your projects.
+              </p>
+            </div>
+            <form class="login">
+              <div class="grid gap-[24px] mt-10">
+                <div class="grid">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="p-2 rounded-lg bg-blue-100"
+                    placeholder="Example@gmail.com"
+                  />
+                </div>
+                <div class="grid">
+                  <label for="password">Password</label>
+                  <input
+                    type="password"
+                    id="password"
+                    class="p-2 rounded-lg bg-blue-100"
+                    placeholder="At least 8 character"
+                  />
+                </div>
+                <div class="flex justify-end">
+                  <p class="text-blue-600">Forgot password?</p>
+                </div>
+                <button class="bg-black text-white p-2 w-full rounded-lg">
+                  Sign In
+                </button>
+              </div>
+            </form>
+            <div class="flex gap-1 mt-10 justify-center">
+              <p>Don't you have an account?</p>
+              <p class="text-blue-600">Sign up</p>
+            </div>
+            <div class="flex justify-center mt-10 md:mt-20 text-[#959CB6]">
+              © 2023 ALL RIGHTS RESERVED
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="md:p-[32px] py-[20px] px-[24px] w-full row-start-1">
+        <img
+          class="md:h-[1076px] h-[180px] w-full"
+          src="./img/Login Art.png"
+          alt=""
+        />
+      </section>
+    </div>
+  </body>
+</html>
